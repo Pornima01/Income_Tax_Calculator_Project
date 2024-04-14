@@ -1,0 +1,187 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  #msg {
+    color: red;
+    font-size: 20px;
+    display: none;
+  }
+  .container {
+    max-width: 370px;
+    margin: 50px auto;
+    padding: 30px;
+    padding-left: 40px;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.21);
+    border: #ff5722 2px solid;
+    border-radius: 15px;
+  }
+   select,input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  .btn1 {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ff5722;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 6px #000000;
+  }
+  .btn1:hover {
+    background-color: #e64a19;
+  }
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  #result1 {
+    padding-top: 30px;
+    font-size:35px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #result2 {
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .popup {
+    background-color: #ffffff;
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+    margin: 25px 486px 5px;
+    color: #000000;
+    font-size: 19px;
+    position: absolute;
+    top: -500px;
+    transition: 0.2s linear all;
+    border: #ff5722 2px solid;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 30px; 
+  }
+  .btn2 {
+    margin-top: 60px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #000000;
+  }
+  .btn2:hover {
+    background-color: #e64a19;
+  }
+  h2{
+    font-size: 40px;
+  }
+  span {
+    color: #e64a19;
+  }
+  #error, #note {
+    font-size: 15px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    opacity: 0;
+  }
+  .error-icon {
+    display: none;
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    background-color:rgb(186, 58, 58);
+    padding: 2px 9px;
+    border-radius: 50%;
+  }
+  .error-icon:hover::after {
+    content: attr(data-error-message);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: -7px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.852) transparent transparent transparent;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .note-icon {
+    margin-left: 5px;
+    color: rgb(167, 165, 165);
+    font-size: 13px;
+    background-color:white;
+    padding: 2px 6px;
+    border: rgb(120, 118, 118) 1px solid;
+    border-radius: 50%;
+  }
+  .note-icon .note-icon-text {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.852);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: -20px;
+    margin-top: -95px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #extraIncome-note-icon > span {
+    margin-left:-22px;
+    margin-top: -95px;
+  }
+  #age-note-icon > span {
+    margin-left:-19px;
+    margin-top: -60px;
+  }
+  #deduction-note-icon > span {
+    margin-left: -25px;
+  }
+  .note-icon .note-icon-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.852) transparent transparent transparent;
+  }
+  .note-icon:hover .note-icon-text {
+    visibility: visible;
+  }
+  
+  @media (max-width: 412px) {
+    body {
+      padding: 0px 20px;
+    }
+    input[type="text"] {
+      width: 84%;
+    }
+    .btn1 {
+      width: 84%;
+    }
+  }
