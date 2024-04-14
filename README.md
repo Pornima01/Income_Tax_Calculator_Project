@@ -26,7 +26,7 @@ To utilize the Income Tax Calculator, start by opening the `index.html` file in 
 
 <h3>:five: Wrong Input Error </h3>
 
-<img alt="tax-calculator" src="https://github.com/Pornima01/Income_Tax_Calculator_Project/assets/147841961/5ea7037c-c51c-4b6c-a056-187284a5a427" height="300" width="300">
+<img alt="tax-calculator" src="https://github.com/Pornima01/Income_Tax_Calculator_Project/assets/147841961/6719c1aa-e23f-448c-9838-440f2a0da4df" height="300" width="300">
 
 <h3>:six: Filled Error Details </h3>
 
