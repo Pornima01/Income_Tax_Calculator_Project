@@ -20,9 +20,17 @@ To utilize the Income Tax Calculator, start by opening the `index.html` file in 
 
 <img alt="tax-calculator" src="https://github.com/Pornima01/Income_Tax_Calculator_Project/assets/147841961/0638ecb3-2a06-42ad-a5fd-51c2562f3eed" height="300" width="300">
 
-<h3>:four: Notes & Age Criteria</h3>
+<h3>:four: Notes & Age Criterias</h3>
 
 <img alt="tax-calculator" src="https://github.com/Pornima01/Income_Tax_Calculator_Project/assets/147841961/5c4ceebc-3265-4939-84d9-698b09d1b8c8" height="300" width="300">
+
+<h3>:five: Wrong Input Error </h3>
+
+<img alt="tax-calculator" src="https://github.com/Pornima01/Income_Tax_Calculator_Project/assets/147841961/5ea7037c-c51c-4b6c-a056-187284a5a427" height="300" width="300">
+
+<h3>:six: Filled Error Details </h3>
+
+<img alt="tax-calculator" src="https://github.com/Pornima01/Income_Tax_Calculator_Project/assets/147841961/5e935b44-cfb7-415e-8fef-39553671a17a" height="300" width="300">
 
 # 🧰 Prerequisites
 
