@@ -6,32 +6,22 @@
     <title>Tax Calculator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <div class="container">
       <h1 id="msg">Please fill all the details</h1>
       <h2>Tax <span>Calculator</span></h2>
-
         <label for="income">Enter Gross Annual Income </label>
         <span  class="note-icon" id="income-note-icon">?
          <span class="note-icon-text">Gross annual <br> income 
           is your total <br> salary in a year <br> before any deduction</span></span>
         <input type="text" id="income" placeholder="Enter gross annual income" oninput="handleInput(event)"/>
         <span class="error-icon" id="income-error-icon">!</span><br /><br />
-        
         <label for="extraIncome">Enter Extra Income </label>
         <span class="note-icon" id="extraIncome-note-icon">?
          <span class="note-icon-text" >Extra income is your <br> money from 
           other sources <br> aside from your main  <br> job or business.</span></span>
-        <input
-          type="text"
-          id="extraIncome"
-          placeholder="Enter extra income from other sources"
-          oninput="handleInput(event)"
-        />
-        <span class="error-icon" id="extraIncome-error-icon">!</span
-        ><br /><br />
-        
+        <input type="text" id="extraIncome" placeholder="Enter extra income from other sources" oninput="handleInput(event)" />
+        <span class="error-icon" id="extraIncome-error-icon">!</span><br /><br />
         <label for="age">Enter Age Group </label>
         <span class="note-icon" id="age-note-icon">?
           <span class="note-icon-text" >Select the age <br> group you fall into.</span></span>
@@ -40,18 +30,11 @@
           <option value="<40">Less than 40</option>
           <option value=">=40 - <60">40 to 60</option>
           <option value=">=60">60 and above</option>
-        </select>
-        <br /><br />
-
+        </select><br /><br />
         <label for="deductions">Enter Total Applicable Deductions </label>
         <span class="note-icon" id="deduction-note-icon">?
           <span class="note-icon-text">Total Applicable Deductionsis<br>the sum of deductions<br> that can be used<br> to reduce taxable income.</span></span>
-        <input
-          type="text"
-          id="deductions"
-          placeholder="Add total applicable deductions"
-          oninput="handleInput(event)"
-        />
+        <input type="text" id="deductions" placeholder="Add total applicable deductions" oninput="handleInput(event)" />
         <span class="error-icon" id="deductions-error-icon">!</span><br /><br />
         <button onclick="calculateTax()" class="btn1">Submit</button>
       </div>
@@ -60,7 +43,7 @@
         <div id="result2">After tax deduction</div>
         <button class="btn2" onclick="closePopup()">Close</button>
       </div>
-    
     <script src="script.js"></script> 
   </body>
 </html>
+
